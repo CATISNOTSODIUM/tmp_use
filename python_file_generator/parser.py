@@ -122,7 +122,7 @@ def generate_html(directory_tree, root, *args, **kwargs):
                         skill_set_dir = skill_set
                         h4(skill_set_dir)
                         for skill in directory_tree[course_name][skill_set]:
-                            skill_dir = skill_set_dir
+                            skill_dir = skill
                             p(skill_dir)
                             for file_name in directory_tree[course_name][skill_set][skill]:
                                 li(a(file_name, href=os.path.join(prefix_link + course_name_dir, skill_set_dir, skill_dir, file_name)))

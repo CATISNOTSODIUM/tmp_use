@@ -1,0 +1,10 @@
+/home/coffee_cat/canarie_me/test_markdown_api/target/debug/deps/libaxum_server-e434aeab8caf97ee.rmeta: /home/coffee_cat/.cargo/registry/src/index.crates.io-6f17d22bba15001f/axum-server-0.6.0/src/lib.rs /home/coffee_cat/.cargo/registry/src/index.crates.io-6f17d22bba15001f/axum-server-0.6.0/src/handle.rs /home/coffee_cat/.cargo/registry/src/index.crates.io-6f17d22bba15001f/axum-server-0.6.0/src/notify_once.rs /home/coffee_cat/.cargo/registry/src/index.crates.io-6f17d22bba15001f/axum-server-0.6.0/src/server.rs /home/coffee_cat/.cargo/registry/src/index.crates.io-6f17d22bba15001f/axum-server-0.6.0/src/accept.rs /home/coffee_cat/.cargo/registry/src/index.crates.io-6f17d22bba15001f/axum-server-0.6.0/src/service.rs
+
+/home/coffee_cat/canarie_me/test_markdown_api/target/debug/deps/axum_server-e434aeab8caf97ee.d: /home/coffee_cat/.cargo/registry/src/index.crates.io-6f17d22bba15001f/axum-server-0.6.0/src/lib.rs /home/coffee_cat/.cargo/registry/src/index.crates.io-6f17d22bba15001f/axum-server-0.6.0/src/handle.rs /home/coffee_cat/.cargo/registry/src/index.crates.io-6f17d22bba15001f/axum-server-0.6.0/src/notify_once.rs /home/coffee_cat/.cargo/registry/src/index.crates.io-6f17d22bba15001f/axum-server-0.6.0/src/server.rs /home/coffee_cat/.cargo/registry/src/index.crates.io-6f17d22bba15001f/axum-server-0.6.0/src/accept.rs /home/coffee_cat/.cargo/registry/src/index.crates.io-6f17d22bba15001f/axum-server-0.6.0/src/service.rs
+
+/home/coffee_cat/.cargo/registry/src/index.crates.io-6f17d22bba15001f/axum-server-0.6.0/src/lib.rs:
+/home/coffee_cat/.cargo/registry/src/index.crates.io-6f17d22bba15001f/axum-server-0.6.0/src/handle.rs:
+/home/coffee_cat/.cargo/registry/src/index.crates.io-6f17d22bba15001f/axum-server-0.6.0/src/notify_once.rs:
+/home/coffee_cat/.cargo/registry/src/index.crates.io-6f17d22bba15001f/axum-server-0.6.0/src/server.rs:
+/home/coffee_cat/.cargo/registry/src/index.crates.io-6f17d22bba15001f/axum-server-0.6.0/src/accept.rs:
+/home/coffee_cat/.cargo/registry/src/index.crates.io-6f17d22bba15001f/axum-server-0.6.0/src/service.rs:

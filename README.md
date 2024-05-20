@@ -1,7 +1,9 @@
 
 <h2>Usage Description</h2> 
 
-All files in assets can be generated based on `templates/sample*.json` scheme. Run `bash init.sh` from `python_file_generator` directory to automatically generated files based on the provided scheme.
+All files in assets can be generated based on files in `wrap_input`.  Run `bash init.sh` in your terminal from `root` directory to automatically generated JSON scheme in `templates/from_pyvert.json`. All files, then, are designated to their directory based on the following convention: `[course_name: ABC-123]_[skillset: u32]_[skill: u32]_filename.md`.
+
+Run `bash start.sh` in your terminal from `root` directory to start the server.
 
 <h3> Endpoints </h3>
 <h4>
