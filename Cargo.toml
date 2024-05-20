@@ -1,5 +1,5 @@
 [package]
-name = "test_pdf_api"
+name = "test_markdown_api"
 version = "0.1.0"
 edition = "2021"
 

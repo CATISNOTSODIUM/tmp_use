@@ -27,7 +27,7 @@ pub struct File_data {
 pub async fn stream_data(file_query: Query<File_data>) -> impl IntoResponse {
     let file_query = file_query.0;
     let file_data = file_query.name;
-    let path = format!("./src/tests/{}", file_data); 
+    let path = format!("./assets/{}", file_data); 
     let file = File::open(path.clone()).await.unwrap();
     println!("Display from {}",path);
     

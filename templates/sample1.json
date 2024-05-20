@@ -1,0 +1,58 @@
+{
+    "LIN-001": {
+        "1024": {
+            "30": [
+                "Exercise.md",
+                "Material.md"
+            ],
+            "27": [
+                "Exercise.md",
+                "Material.md"
+            ],
+            "32": [
+                "Exercise.md",
+                "Material.md"
+            ]
+        },
+        "1025": {
+            "60": [
+                "Exercise.md",
+                "Material.md"
+            ]
+        },
+        "1026": {
+            "80": [
+                "Exercise.md",
+                "Material.md"
+            ]
+        }
+    },
+    "LIN-002": {
+        "2001": {
+            "30": [
+                "Exercise.md",
+                "Material.md"
+            ],
+            "27": [
+                "Exercise.md",
+                "Material.md"
+            ],
+            "32": [
+                "Exercise.md",
+                "Material.md"
+            ]
+        },
+        "2002": {
+            "60": [
+                "Exercise.md",
+                "Material.md"
+            ]
+        },
+        "2003": {
+            "80": [
+                "Exercise.md",
+                "Material.md"
+            ]
+        }
+    }
+}

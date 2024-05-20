@@ -16,11 +16,13 @@ pub async fn initialize_server(){
     .allow_methods([Method::GET, Method::POST])
     .allow_origin(tower_http::cors::Any);
 
+
     let app = Router::new()
     .route("/", get(|| async { "root" }))
     //retrieve files from src/tests
     .route("/receiver/:file_name", get(routes::send_data::stream_data))
-    .layer(cors);
+    .route("/tree", get(routes::display::display_tree))
+	.layer(cors);
     
     //bind with port 3000
     axum::Server::bind(&"0.0.0.0:3000".parse().unwrap())
