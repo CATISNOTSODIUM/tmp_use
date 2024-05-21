@@ -28,7 +28,7 @@ http://localhost:3000/receiver/`?name=LIN-001/LIN-001_1024/LIN-001_1024_27/Exerc
 
 </h4>
 
-Display all courses from `index.html`.
+Display the directory tree and files.
 
 <h4>
 
