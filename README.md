@@ -1,5 +1,6 @@
 
 <h2>Usage Description</h2> 
+
 This program serves as a directory parser to leverage the task of allocating files manually.  All files in assets can be generated based on markdown files in `wrap_input`.  Before starting the program, make sure that all files are named based on this format: `[course_name: ABC-123]_[skillset: u32]_[skill: u32]_filename.md`. This paradigm ensures that each endpoint in the directory tree contains at least one markdown file.  
 
 To start the program, run `bash init.sh` in your terminal from `root` directory to automatically generated JSON/YML scheme in `templates/from_pyvert.json`. All files, then, are designated to their directory based on the convention mentioned above. Run `bash start.sh` in your terminal from `root` directory to start the server.
