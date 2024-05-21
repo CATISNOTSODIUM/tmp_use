@@ -30,7 +30,13 @@ def convert_dir_to_dict(root_dir):
 
     return result
 
+root_dir =  os.path.join(os.getcwd(), "./") 
+file_path = os.path.join(root_dir, "templates/from_pyvert.yml") 
+asset_path = os.path.join(root_dir, "assets") 
+#import json
+#with open("./templates/from_pyvert.json", "w") as outfile: 
+#    json.dump(convert_dir_to_dict("./assets"), outfile, sort_keys=True,indent=4) 
 
-import json
-with open("./templates/from_pyvert.json", "w") as outfile: 
-    json.dump(convert_dir_to_dict("./assets"), outfile, sort_keys=True,indent=4) 
+import yaml
+with open(file_path, 'w') as outfile:
+    yaml.dump(convert_dir_to_dict(asset_path), outfile, default_flow_style=False)

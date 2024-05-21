@@ -6,14 +6,14 @@ import json
 #current directory
 root_dir =  os.path.join(os.getcwd(), "./") 
 asset_path = os.path.join(root_dir, "assets") 
-json_path = os.path.join(root_dir, "templates/from_pyvert.json") 
+file_path = os.path.join(root_dir, "templates/from_pyvert.yml") 
 
 #read yml
-#directory_tree = yaml.safe_load(Path('../templates/sample1.yml').read_text())
-f = open(json_path)
-directory_tree = json.load(f)
+directory_tree = yaml.safe_load(Path(file_path).read_text())
+#f = open(json_path)
+#directory_tree = json.load(f)
 #generate directory
-#create_dir_from_tree(directory_tree,asset_path, with_seeds = True, with_convention = True)
+create_dir_from_tree(directory_tree,asset_path, with_seeds = True, with_convention = True)
 
 #generate index.html
 generate_html(directory_tree, asset_path,  with_convention = False)
